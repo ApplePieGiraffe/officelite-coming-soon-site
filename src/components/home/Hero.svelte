@@ -51,7 +51,7 @@
             align-self: center;
             min-width: 35rem;
             max-width: 65.5rem;
-            margin-top: -2px;
+            margin-top: -1px;
             margin-right: -3.125rem;
             margin-bottom: 0;
             margin-left: auto;

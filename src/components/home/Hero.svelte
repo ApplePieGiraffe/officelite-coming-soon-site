@@ -30,12 +30,8 @@
         margin-bottom: 8rem;
     }
 
-    h1 {
-        margin-bottom: 2.875rem;
-    }
-
-    p {
-        margin-bottom: 3.125rem;
+    h1, p {
+        margin-bottom: 3rem;
     }
 
     @media only screen and (min-width: 750px) {
@@ -44,7 +40,7 @@
             align-items: start;
             max-width: initial;
             margin: 0;
-            padding-top: 12.5rem;
+            padding-top: 12.75rem;
             text-align: start;
         }
 
@@ -54,7 +50,7 @@
             align-self: center;
             min-width: 35rem;
             max-width: 65.5rem;
-            margin-top: -1px;
+            margin-top: -2px;
             margin-right: -3.125rem;
             margin-bottom: 0;
             margin-left: auto;

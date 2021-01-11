@@ -2,6 +2,6 @@
 
 ![Design preview for the Officelite comming soon site Frontend Mentor challenge](./static/img/preview.jpg)
 
-A challenge from Frontend Mentor.
+A challenge from Frontend Mentor. 😀
 
 Coded by me! 😁

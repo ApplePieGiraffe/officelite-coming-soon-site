@@ -5,7 +5,7 @@
     date.setDate(date.getDate() + 47);
     date.setHours(date.getHours() + 7);
     date.setMinutes(date.getMinutes() + 56);
-    date.setSeconds(date.getSeconds() + 14);
+    date.setSeconds(date.getSeconds() + 15);
 
     let seconds;
     let minutes;

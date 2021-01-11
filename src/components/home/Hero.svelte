@@ -40,7 +40,8 @@
             align-items: start;
             max-width: initial;
             margin: 0;
-            padding-top: 12.75rem;
+            margin-bottom: .25rem;
+            padding-top: 12.5rem;
             text-align: start;
         }
 

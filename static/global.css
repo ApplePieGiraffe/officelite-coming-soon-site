@@ -1,0 +1,71 @@
+:root {
+	--color-blue: #5175FF;
+	--color-red: #F05B5B;
+	--color-very-light-grey: #FAFAFA;
+	--color-grey: #747B95;
+	--color-dark-grey: #333950;     
+	--color-very-dark-grey: #25293A;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 50%;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* accessibility */
+
+*:focus {
+	outline: 2px dotted #5175FF;
+}
+
+.sr-only {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+/* typography */
+
+.heading {
+	color: var(--color-dark-grey);
+}
+
+.heading--primary {
+	 font-size: 5rem;
+	 line-height: 6rem;
+}
+
+.body-copy {
+	color: var(--color-grey);
+	font-size: 2rem;
+	line-height: 3.25rem;
+}
+
+@media only screen and (min-width: 1000px) {
+	.heading--primary {
+		font-size: 7rem;
+		line-height: 8rem;
+   }
+
+   .body-copy {
+		font-size: 2.25rem;
+		line-height: 3.5rem;
+	}
+}

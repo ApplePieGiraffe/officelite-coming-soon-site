@@ -3,6 +3,7 @@
     import Header from '../components/home/Header.svelte';
     import Countdown from '../components/shared/Countdown.svelte';
     import Form from '../components/signup/Form.svelte';
+    import Attribution from '../components/shared/Attribution.svelte';
 </script>
 
 <svelte:head>
@@ -20,6 +21,7 @@
         </div>
         <Form/>
     </div>
+    <Attribution/>
 </div>
 
 <style>

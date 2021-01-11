@@ -4,6 +4,7 @@
     import Hero from '../components/home/Hero.svelte';
     import Plans from '../components/home/Plans.svelte';
     import Footer from '../components/home/Footer.svelte';
+    import Attribution from '../components/shared/Attribution.svelte';
 </script>
 
 <svelte:head>
@@ -15,6 +16,7 @@
     <Hero/>
     <Plans/>
     <Footer/>
+    <Attribution/>
 </div>
 
 <style>

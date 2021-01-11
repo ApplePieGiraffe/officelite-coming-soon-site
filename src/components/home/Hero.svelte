@@ -35,7 +35,7 @@
     }
 
     p {
-        margin-bottom: 3rem;
+        margin-bottom: 3.125rem;
     }
 
     @media only screen and (min-width: 750px) {
